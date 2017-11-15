@@ -8,7 +8,7 @@ def doj_press_releases(db_name,collection_name):
 
     url='http://www.justice.gov/api/v1/press_releases.json?'
     
-    for i in range(900,965):
+    for i in range(966):
         print('page', i)
         params = dict(
             page = i,
